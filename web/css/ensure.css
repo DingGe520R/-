@@ -1,0 +1,155 @@
+/* CSS Document */
+.body{
+	height:1000px;
+	}
+
+.xian{
+	border:#C69 solid 2px;
+	}
+.head{
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	}
+.head span{
+  margin-left: 230px;
+	margin-top: 10px;
+	font-size: 30px;
+	font-family:"黑体";
+	color:#666;
+}
+.head p{
+	font-family:"黑体";
+	font-size:18px;
+	margin-top: -50px;
+	margin-left: 380px;
+	color:#666;
+
+	}
+.centent{
+	width:1080px;
+	height:550px;
+	margin:0 auto;
+	}
+.centent_one{
+	width:1080px;
+	height:50px;
+	margin:0 auto;
+	margin-top:5px;
+	line-height:15px;
+	background:white;
+	border:#E4E4E4 solid 1px;
+	border-left:#C69 solid 2px; 
+	}
+.text{
+	width:290px;
+	height:150px;
+	margin-top:60px;
+	margin-left:30px;
+	background:#EFEFEF;
+	}
+.text p a{
+	line-height:120px;
+	font-size:58px;
+	color:#BBB;
+	}
+.text p{
+	font-size:38px;
+	color:#7F7F7F;
+	line-height:120px;
+	margin-top:-30px;
+	text-align:center;
+	
+	}
+.huixie{
+	width: 280px;
+	height: 150px;
+	background-image: url("../img/xingzhi.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.xm{
+	width: 200px;
+	height: 30px;
+    position: relative;
+	top:20px;
+	left:20px;
+}
+.dh{
+	width: 200px;
+	height: 30px;
+	position: relative;
+	top:30px;
+	left: 40px;
+}
+.dzs{
+	width: 200px;
+	height: 30px;
+	position: relative;
+	top:40px;
+	left: 40px;
+}
+.huixie img{
+	position: absolute;
+	left: 300px;
+	top: -200px;
+}
+.box{
+    width:40%; 
+	margin: auto;
+	padding:28px;
+    height:340px;
+	border:2px #F5F5F5 solid;
+    display:none;  /* 默认对话框隐藏 */
+	position:absolute;
+	top:250px;
+	z-index:100;
+	background:white;
+	border:#C69 solid 1px;
+	/*box-shadow: 2px 2px 2px #C69;*/
+}
+.box a{
+	font-family:"黑体";
+	margin-left: -50px;
+	color: gray;
+	}
+.box ul{
+	font-family:"黑体";
+	margin-left: 10px;
+	color:#666;
+	}
+.box li{
+	overflow: hidden;
+	}
+.box.show{
+	display:block;
+	} 
+.box .x{
+	font-size:18px; text-align:right; display:block;
+	}
+.box input{
+	width:60%; font-size:18px; margin-top:18px;
+	}
+.centent_two{
+	width:1080px;
+	height:50px;
+	margin:0 auto;
+	margin-top:25px;
+	line-height:15px;
+	background:white;
+	border:#E4E4E4 solid 1px;
+	border-left:#C69 solid 2px; 
+	}
+
+.centent_two a{
+	margin-left:900px;
+	color:#6CF;
+	font-size:14px;
+	}
+.entext{
+	width:1080px;
+	height:auto;
+	margin-top:30px;
+	
+	}

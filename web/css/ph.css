@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#top{
+		width:100%;
+		height:50px;
+	}
+.n1_header a{
+	color:black;
+}
+.n1_header a:hover{
+	color: #f26552;
+}
+		.clear{
+			clear:both;
+		}
+		#menu{
+			background-color:#CCC;
+			border-top:5px solid #9e9e9e;
+			padding: 10px 0px;
+			text-align: center;
+		}
+ 
+		#menu a{
+			/*margin: 0px,8px;*/
+			color:#fff;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 15px;
+		}
+ 
+		#menu a:hover{
+			color:#FFF;
+		}
+ 
+		#menu  .all{
+			color: yellow;
+		}
+ 
+		#search input[type="image"] {
+			margin-right: 250px;
+			margin-bottom: -6px;
+		}
+ 
+		#search input[type="text"] {
+			height:  16px;
+		}
+		#search{
+			background-color: white;
+			padding: 7px 0px;
+			text-align: right;
+		}
+		
+		.content{
+			width: 900px;
+			margin: 5px auto 15px;
+			background-color: white;
+		}
+		.content_top{
+			font-size: 13px;
+			text-align: right;
+		}
+ 
+		.content_bottom{
+			background-color: white;
+	padding: 10px 15px;
+	text-align: center;
+		}
+ 
+		.content_bottom h1{
+	font-size: 18px;
+	display: inline;
+		}
+ 
+		.content_bottom span{
+			font-size: 13px;
+		}
+ 
+		.productlist_img img{
+			width: 100%;
+		}
+ 
+		.bookimg img{
+			width: 128px;
+			height: 196px;
+		}
+ 
+		.book{
+		float: left;
+		width: 25%;
+		text-align: center;
+		padding:10px 0px;
+			margin-top: 20px;
+	}
+ 
+		.jumpPages{
+		text-align: center;
+		margin: 10px;
+			margin-top: 20px;
+	}
+	.jumpPage a{
+		padding:2px 6px;
+		border: 1px solid #9AAFE5;
+		text-decoration: none;
+		color:#9AAFE5;
+	}
+	.jumpPage a:hover{
+		color:#2B66A5;
+		border: 1px solid #2B66A5;
+	}
+	.current{
+		background-color: blue;
+	}
+	#bottom{
+		background-color: white;
+			padding: 35px 0px 0px 0px;
+			height: 85px;
+			text-align:center;
+		}
+	#p{
+			position:absolute;}
+	
